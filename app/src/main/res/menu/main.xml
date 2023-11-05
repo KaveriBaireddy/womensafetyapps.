@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/share"
+        android:icon="@drawable/ic_baseline_share_24"
+        android:orderInCategory="101"
+        android:title="Share"
+        app:showAsAction="always" />
+    <item android:id="@+id/refresh"
+        android:icon="@drawable/ic_baseline_refresh_24"
+        android:orderInCategory="102"
+        android:title="REFRESH"
+        app:showAsAction="always" />
+    <item android:id="@+id/help"
+        android:orderInCategory="100"
+        android:title="Help"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/safetytips"
+        android:orderInCategory="101"
+        android:title="Safety Tips"
+        app:showAsAction="ifRoom" />
+
+
+
+
+
+</menu>
